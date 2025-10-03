@@ -1,0 +1,17 @@
+cal.exe: add.o subtract.o multiply.o divide.o
+	g++ add.o subtract.o multiply.o divide.o -o cal.exe
+
+add.o: add.c
+	g++ -c add.c
+
+subtract.o: subtract.c
+	g++ -c subtract.c
+
+multiply.o: multiply.c
+	g++ -c multiply.c
+
+divide.o: divide.c
+	g++ -c divide.c
+
+clean:
+	rm -f cal.exe *.o

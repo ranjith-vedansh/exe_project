@@ -21,4 +21,4 @@ int main() {
         printf("%.2f / %.2f = %.2f\n", num1, num2, result);
     }
     return 0;
-}
+    // Removed main function

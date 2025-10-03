@@ -13,4 +13,4 @@ int main() {
     result = subtract(num1, num2);
     printf("%.2f - %.2f = %.2f\n", num1, num2, result);
     return 0;
-}
+    // Main function removed

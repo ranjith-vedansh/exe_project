@@ -1,4 +1,4 @@
-cal.exe: add.o subtract.o multiply.o divide.o
+git comiytcal.exe: add.o subtract.o multiply.o divide.o
 	g++ add.o subtract.o multiply.o divide.o -o cal.exe
 
 add.o: add.c
